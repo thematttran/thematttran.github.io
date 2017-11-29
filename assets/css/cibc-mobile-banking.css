@@ -1,0 +1,491 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background: white;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 95vw;
+    margin: 2.5vw 2.5vw 2vw 2.5vw;
+}
+
+.header-image{
+    width: 100%;
+    height: 90vh;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(../../imgs/cibcproject/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-image h1{
+    color: white;
+    padding: 44vh 0 40vh 0;
+    margin: 0 15px 0 15px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.overview{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    width: 90vw;
+    min-height: 50vh;
+    margin: 18vw 5vw 18vw 5vw;
+    font-weight: 100;
+}
+
+.title{
+    text-align: center;
+    font-weight: 100;
+    width: 40%;
+}
+
+.title img{
+    width: 15%;
+
+}
+
+.title-position{
+    margin: 2vw 1vw 8vw 1vw;
+}
+
+.title-position h1, h2{
+    font-weight: 100;
+}
+
+.intro-description{
+    width: 60%;
+}
+
+.intro-description p{
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 80%;
+}
+
+.project-body{
+    max-width: 95vw;
+    min-height: 50vh;
+    margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.section h1{
+    font-family: "roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    text-decoration: 
+}
+
+.section h2,p{
+    font-family: "roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.25em;
+}
+
+.one, .two, .three, .four{
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 2.5vw;
+}
+
+z
+.two a{
+    color: black;
+    text-decoration: underline;
+}
+
+.two a:hover{
+    color: tomato;
+}
+
+.image-wording{
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 10%;
+    color:white;
+    font-weight: bold;
+}
+
+.image-wording h1{
+    font-size: 2em;
+    font-weight: 100;
+    margin: 22px 32px 22px 32px;
+}
+
+.description{
+    width: 40%;
+    background-color: #616161;
+}
+
+.description h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 30px;
+    color: white;
+}
+
+.Usingapp{
+    width: 60%;
+    height: 70vh;
+    margin-right: 2.5vw;
+    background-image: url(../../imgs/cibcproject/Real/UsingApp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.designprocess{
+    width: 100%;
+    height: 40vw;
+    background-image: url(../../imgs/cibcproject/Designprocess.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Empathize{
+    width: 60%;
+    height: 70vh;
+    margin-left: 2.5vw;
+    background-image: url(../../imgs/cibcproject/People.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.persona{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../../imgs/cibcproject/Persona.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.jobstories{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../../imgs/cibcproject/Jobstories.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.wireframe{
+    width: 60%;
+    height: 80vh;
+    margin-right: 2.5vw;
+    background-image: url(../../imgs/cibcproject/sketching.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.lofisketches{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../../imgs/cibcproject/drawings.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.userflow{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../../imgs/cibcproject/flow.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.prototype{
+    width: 60%;
+    height: 80vh;
+    margin-left: 2.5vw;
+    background-image: url(../../imgs/cibcproject/prototype.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mybudget{
+    width: 100%;
+    height: 90vw;
+    background-image: url(../../imgs/cibcproject/myBudget.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.notifications{
+    width: 100%;
+    height: 40vw;
+    background-image: url(../../imgs/cibcproject/notifications.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.payment{
+    width: 100%;
+    height: 30vw;
+    margin: 50px 0px 50px 0;
+    background-image: url(../../imgs/cibcproject/Applepay.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.budget-reminder{
+    width: 100%;
+    height: 30vw;
+    margin: 50px 0px 50px 0;
+    background-image: url(../../imgs/cibcproject/budgetting.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.budget-warning{
+    width: 100%;
+    height: 30vw;
+    margin: 50px 0px 50px 0;
+    background-image: url(../../imgs/cibcproject/Warning.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.savings-yes{
+    width: 100%;
+    height: 30vw;
+    margin: 50px 0px 50px 0;
+    background-image: url(../../imgs/cibcproject/%20w:%20savings%20acc.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.savings-no{
+    width: 100%;
+    height: 30vw;
+    margin: 50px 0px 50px 0;
+    background-image: url(../../imgs/cibcproject/w:o%20savings%20acc.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.takeaway{
+    width: 60%;
+    height: 80vh;
+    margin-right: 2.5vw;
+    background-image: url(../../imgs/cibcproject/takeaway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer{
+    width: 90%;
+    padding-top: 3vh;
+    margin: 5vh 5vw 5vh 5vw;
+    height: 60px;
+}
+
+hr{
+    opacity:0.8;
+}
+
+.social-footer a{
+    margin: 8px 8px 0 0px;
+    color: #424242;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 1.2em;
+}
+
+.social-footer a:hover{
+    opacity: 1;
+    color: tomato;
+}
+.social-footer a:active{
+    opacity: 1;
+    color: tomato;
+}
+
+.ref-button{
+    font-family: "Roboto" , sans-serif;
+    float: right;
+    font-weight: 100;
+    padding-left: 5vw;
+}
+
+
+
+
+@media (max-width: 1237px){
+   button{
+        right: 15px;
+    } 
+  .image-me{
+        width: 50vw;
+        margin-left: 10vh;
+        margin-right: 5vh;
+    }
+}
+
+@media (max-width: 1024px){
+    .social-footer a{
+        margin-right: 8px;
+    }
+    
+    .header-image{
+        width: 100%;
+        height: 90vh;
+    }
+    .header-image h1{
+        padding: 44vh 0 10vh 0;
+        font-size: 2em;
+    }
+    
+    .Usingapp{
+        height: 60vh;
+    }
+    
+    .description h1{
+        font-size: 1em;
+    }
+
+    .userflow{
+        height: 40vw;
+    }
+
+}
+
+@media (max-width: 900px){
+    .header-image h1{
+        font-size: 1.8em;
+    }
+    
+    .overview{
+        flex-direction: column;
+    }
+    
+    .title{
+        width: 100%;
+    }
+    
+    .intro-description{
+        width: 100%;
+    }
+    
+    .intro-description p{
+        font-size: 1.2em;
+        width: 100%;
+    }
+    
+    .description{
+        width: 100%;
+        order: 2;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+    .section h1{
+        font-size: 1.25em;
+    }
+
+    .section h2,p{
+        font-size: 1em;
+    }
+    
+    .Usingapp{
+        width: 100%;
+        height: 50vh;
+        margin-right: 0vw;
+    }
+    
+    .wireframe{
+        width: 100%;
+        height: 50vh;
+        margin-left: 0vw;
+    }
+    
+    .Empathize{
+        width: 100%;
+        height: 50vh;
+        margin-left: 0vw;
+    }
+    
+    .persona{
+        height: 70vw;
+    }
+
+    .jobstories{
+        height: 50vw;
+    }
+    
+    .lofisketches{
+        height: 50vw;
+    }
+    
+    .userflow{
+        height: 50vw;
+    }
+    
+    .prototype{
+        width: 100%;
+        height: 50vh;
+        margin-left: 0vw;
+    }
+    
+    .takeaway{
+        width: 100%;
+        height: 80vh;
+        margin-right: 0vw;
+    }
+    
+}
+
+@media (max-width: 850px){
+    .image-wording h1{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 550px){
+    .image-wording h1{
+        font-size: 1.4em;
+    }
+    
+    .description h1{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 414px) and (max-height:736px){   
+    
+    .header-image h1{
+        font-size: 1.4em;
+    }
+    .social-footer a{
+        margin: 8px 0 0 4px;
+        font-size: 1.1em;
+    }
+}
