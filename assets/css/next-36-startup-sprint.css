@@ -322,3 +322,14 @@ hr{
         font-size: 1.1em;
     }
 }
+
+.scene_element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+
+}
+
+.scene_element--fadeinup {
+    animation-name: fadeInUp;
+}
