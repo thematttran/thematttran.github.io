@@ -53,6 +53,13 @@ body,html{
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
 }
 
+.wrapper2{
+    display: flex;
+    width: 95vw;
+    height: 90vh;
+    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
+}
+
 .project-header{
     display: flex;
     width: 100%;
@@ -61,7 +68,7 @@ body,html{
 }
 
 .name{
-    width: 90%;
+    width: 93%;
 }
 
 .name h1{
@@ -71,7 +78,6 @@ body,html{
     font-weight: 100;
     margin-left: 0.5vw;
 }
-
 
 button{
     margin-top: 1vh;
@@ -121,6 +127,26 @@ button{
 }
 
 .next36-image button:hover{
+    opacity: 1.0;
+}
+
+.condeco-image{
+    display: flex;
+    width: 100%;
+    border-radius: 3px;
+    background: url(../../imgs/Condeco.jpg) no-repeat center;
+    background-size: cover;
+    color:white;
+    cursor:pointer;
+}
+
+.condeco-image button{
+    color: white;
+    border-color: white;
+    opacity: 0.5;
+}
+
+.condeco-image button:hover{
     opacity: 1.0;
 }
 
