@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+        <title>About | Matt Tran</title>
+        <meta name="description" content="Matthew Tran: Product Designer & Story Teller">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./assets/css/about.css" />
+    
+        <link rel="stylesheet" href="./assets/css/aos.css"/>
+    
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+</head> 
+    
+    <nav class="navigation">
+      <div class="navbar-right">
+        <a href="http://www.thematttran.com">MATTHEW TRAN</a>
+      </div>
+    </nav>
+    
+    <a href="#top" id="return-to-top"><i class="icon-chevron-up"></i></a>
+    
+    <body> 
+        <div class="intro" id="top" data-aos="fade-zoom-in">
+            <div class="fade-scroll">
+                <h1>"Beauty and brains, pleasure and usability - they should go hand in hand."</h1>
+                <h2>- Don Norman</h2>
+            </div> 
+        </div>  
+        
+        <div class="section one">
+           <div class="textbox">
+                <p data-aos="fade-up">
+                    My name is Matthew Tran, I am a designer based in Toronto. Problem solving has always been my passion in life, I have always tried to come with the best solutions to any task I was faced with.
+                    
+                    <br><br>
+                    A bit of background on me I went to school for Engineering and graduated July 2017. Having left school I just took up any corporate job I could get my hands on. I found myself working at CIBC as a Quality Assurance Analyst (this was a temporary co-op position, I was lucky enough to have gained this position even though I was not a student anymore). From there I explored different career options because I came to a realization that engineering was not for me and didn't fulfill my desire to create/solve problems in an innovative manner. After many months I stumbled upon UX-design and I fell in love, from there I have been moving full force into field because I knew now was the time for myself to do what I really want to do in life.
+                    
+                    <br><br><br><br>
+                    Currently seeking to join an amazing team of like minded individuals. I'd love to talk more about design over coffee. Lets chat - <a href="mailto:thematttran@gmail.com">thematttran@gmail.com</a>
+                </p>
+                
+           </div>   
+        </div>
+        
+    </body> 
+    
+    <footer>
+        <div class="footersection">
+            <div class="left">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/thematttran/" target="_blank">Linkedin</a></li>
+                    <li><a href="https://www.behance.net/thematttran" target="_blank">Behance</a></li>
+                    <li><a href="http://instagram.com/cha.siu" target="_blank">Instagram</a></li>
+                    <li><a href="https://500px.com/chasiuu" target="_blank">500px</a></li>
+
+                </ul>
+
+            </div>
+            <div class="left">
+                <ul>  
+                    <li><a href="Matthew_Tran_Resume_2017.pdf" target="_blank">Resume</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="mailto:thematttran@gmail.com">Contact</a></li>
+                </ul>
+            </div>    
+            
+            <div class="right">    
+                <ul>
+                     <li><a href="http://www.thematttran.com">Return Home</a></li>
+                </ul> 
+            </div>
+            
+        </div>        
+    </footer>
+ 
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script type="text/javascript" src="./assets/js/dragscroll.js"></script>
+            
+    <script>
+         $(window).scroll(function() {
+        if($(this).scrollTop() > 600){  /*height in pixels when the navbar becomes non opaque*/ 
+            $('.navbar-right a').addClass('color');
+        }else{
+            $('.navbar-right a').removeClass('color');
+        }
+    });
+    </script>
+    
+    <script>    
+            $(function() {
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+        
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/200);
+                    }); 
+                });
+                
+            });
+        
+    </script>
+
+    
+    <script>
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        }
+    </script>
+    
+    <script>
+        AOS.init();
+    </script>
+    
+    <script>
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 600) {        
+                $('#return-to-top').fadeIn(200);    
+            } else {
+                $('#return-to-top').fadeOut(200);  arrow
+            }
+        });
+        $('#return-to-top').click(function() {   
+            $('body,html').animate({
+                scrollTop : 0                       
+            }, 500);
+        });
+    </script>
+    
+</html>

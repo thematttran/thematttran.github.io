@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+        <title>Home | Matt Tran</title>
+        <meta name="description" content="Matthew Tran: Product Designer & Story Teller">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="icon" 
+        type="image/png" 
+        href="./assets/imgs/m.png">
+        
+        <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    
+        <link rel="stylesheet" href="./assets/css/aos.css"/>
+    
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head> 
+
+    <nav class="navigation">
+      <div class="navbar-right">
+        <a>MATTHEW TRAN</a>  
+      </div>
+    </nav>
+    
+    <body> 
+        <div class="intro" data-aos="fade-zoom-in">
+            <h1 class="fade-scroll">A Digital Archetype - Creating better experiences</h1>
+        </div>  
+        
+        <div class="wrapper" id="projects">
+            
+            <div class ="SHOPIFY">
+                <img src ="assets/imgs/Shopify.jpg" data-aos="fade-up" width="100%">
+                <a href="Shopify-Design-Challenge.html"><h1>Shopify Design Challenge - Digital service to tackle recycling.</h1></a>
+                <br>
+                <h2>Product and Interface design</h2>
+            </div>
+            
+            <div class ="NEXT36">
+                <img src ="assets/imgs/Next36.jpg"  data-aos="fade-up" width="100%">
+                <a href="NEXT36-Design-Sprint.html"><h1>NEXT36 Design Sprint - International Courier service.</h1></a>
+                <br>
+                <h2>Product and Interface design</h2>
+            </div>
+            
+            <div class ="CIBC">
+                <img src ="assets/imgs/CIBC.jpg" data-aos="fade-up" width="100%">
+                <a href="CIBC-Design-Challenge.html"><h1>CIBC Design Challenge - Automated budgetting expansion.</h1></a>
+                <br>
+                <h2>User Experience Casestudy</h2>
+            </div>
+        
+        </div>
+    </body> 
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    
+    <script type="text/javascript">
+            
+            $(function() {
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+        
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/200);
+                    }); 
+                });
+                
+            });
+        
+    </script>
+    
+    <script>
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        }
+    </script>
+    
+    <script>
+        AOS.init();
+    </script>
+    
+    <script>
+         $(window).scroll(function() {
+        if($(this).scrollTop() > 600){  /*height in pixels when the navbar becomes non opaque*/ 
+            $('.navbar-right a').addClass('color');
+        }else{
+            $('.navbar-right a').removeClass('color');
+        }
+    });
+    </script>
+    
+</html>

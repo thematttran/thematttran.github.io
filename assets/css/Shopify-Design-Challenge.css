@@ -1,0 +1,408 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background: white;
+    overflow-x: hidden;
+}
+
+.navigation{
+    padding-top:7vh;
+    padding-bottom:1vh;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+
+.navbar-right{
+    float: right;
+    padding-right: 10%;
+}
+
+.navbar-right a{
+    text-decoration:none;
+    padding: 10px;
+    color: white;
+    font-family:'Roboto';
+    font-size: 1.5em;    
+    font-weight:100;
+}
+
+.navbar-right a:hover{
+    text-decoration: underline;
+}
+
+.navbar-right a.color{
+    color: black;
+}
+
+.intro{
+    padding-top: 5vh;
+    padding-bottom: 35vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../assets/imgs/Shopify/header.jpeg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.intro h1{
+    width: 50%;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    font-size: 2em;
+    padding: 38vh 0 2vh 0;
+    margin: 3vh 0 0 5vw;
+    color: white;  
+}
+
+.intro h2{
+    width: 50%;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    font-size: 1.5em;
+    margin: 3vh 0 0 5vw;
+    color: white;
+}
+
+
+.section{
+    margin: 20vh 20vw 20vh 20vw;
+}
+
+.section.five{
+    height: 80vh;
+    margin: 20vh 1vw 20vh 1vw;
+}
+
+.section a{
+    color:black;
+    cursor:mouse;
+}
+
+.quote{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#inbody{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.quote h1{
+    font-family: 'Playfair Display';
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.quote h2{
+    font-family: 'Playfair Display';
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.carousel{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space:nowrap;
+    cursor: grab; 
+    cursor : -o-grab; 
+    cursor : -moz-grab; 
+    cursor : -webkit-grab;
+}
+
+.carousel::-webkit-scrollbar{
+    display:none;
+}
+
+.carousel img{
+    margin: 0 15px 0 15px;
+    width: 20vw;
+}
+
+.overview img{
+    width: 100%;
+}
+
+.textbox p{
+    font-family: 'helvetica' sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.9;
+}
+
+.conceptheader{
+    display: flex;
+    margin: 10vh 10vw 10vh 10vw;
+}
+
+.concepttext{
+    width: 50%;
+    margin: 3vw;
+}
+
+.concepttext h1{
+    font-family: 'Playfair Display';
+    font-size: 2.5em;
+}
+.concepttext p{
+    font-family: 'Playfair Display';
+    font-size: 1.2em;
+}
+
+.conceptimage{
+    width: 50%;
+    height: 80vh;
+    margin: 1vw;
+    background: url(../../assets/imgs/Shopify/concept.jpg) no-repeat center;
+    background-size: cover; 
+}
+
+.date{
+    margin: 10vh 20vw 10vh 20vw;
+}
+
+.date p{
+    font-family: 'Lato';
+    font-size: 1em;
+    opacity: 0.5;
+    margin: 0 8vw 0 0vw;
+    display: inline;
+}
+
+
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: #212121;
+}
+
+.footersection{
+    margin: 0 20vw 0 18vw;
+}
+
+.footersection a{
+    font-size: 1em;
+    font-family: "Roboto";
+    text-decoration: none;
+    color: white;
+    
+}
+
+.left{
+    margin: 8vh 4vw 4vh 0vw;
+    float:left;
+    display: inline;
+}
+
+.left ul{
+    list-style-type:none;
+}
+
+.left li{
+        margin: 15px 0 15px 0;
+}
+
+.right{
+    margin: 8vh 0vw 8vh 0vw;
+    float:right;
+    display: inline;
+}
+
+.right ul{
+    list-style-type:none;
+}
+
+.right li{
+    margin: 15px 0 15px 0;
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+#return-to-top {
+    z-index: 100;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+@media (max-width: 1024px){ 
+    .intro h1{
+        font-size: 1.5em;
+        color: white;
+    }
+    
+    .intro h2{
+        font-size: 1em;
+        color: white;
+    }
+    
+    .section{
+        margin: 10vh 10vw 10vh 10vw;
+    }
+    
+    .section.eleven h1{
+        font-size: 2em;
+    }
+    
+    .quote h1{
+        font-size: 1.5em;
+    }
+
+    .quote h2{
+        font-family: 'Playfair Display';
+        font-size: 1em;
+        font-weight: 100;
+    }
+    
+    .carousel img{
+        width: 25vw;
+    }
+    
+        
+    .textbox p{
+        font-family: 'helvetica' sans-serif;
+        font-size: 16px;
+        line-height: 1.9;
+    }
+    
+    .conceptheader{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10vh 10vw 10vh 10vw;
+    }
+    
+    .concepttext{
+        width: 100%;
+        margin: 0vw;
+    }
+    
+    .concepttext h1{
+        font-family: 'Playfair Display';
+        font-size: 1.5em;
+    }
+    .concepttext p{
+        font-family: 'Playfair Display';
+        font-size: 1em;
+    }
+    
+    .conceptimage{
+        height: 50vh;
+        width: 100%;
+        margin: 0vw;
+    }
+    .date{
+        margin: 10vh 10vw 10vh 10vw;
+    }
+    
+    .date p{
+        margin: 1vw;
+        display: block;
+    }
+    
+    .footersection{
+        margin: 0 12vw 0 12vw;
+    }
+    
+    .left{
+        margin: 4vh 4vw 4vh 0vw;
+    }
+    
+    .left ul{
+        padding:0 3vw 0 0;
+    }
+    
+    .left li{
+        padding-top: 2vh;
+    }
+    
+    .right{
+        margin: 4vh 4vw 4vh 0vw;
+    }
+    
+    .right ul{
+        padding: 0 0 0 10vw;
+    }
+    
+    .right ul{
+        padding:0 3vw 0 0;
+    }
+    
+    .right li{
+        padding-top: 2vh;
+    }
+    
+
+}
+
+@media (max-width: 550px){
+    .intro h1{
+        width: 80%;
+    }
+    .intro h2{
+        width: 80%;
+    }
+    
+    .navbar-right a{
+        font-size: 1em;    
+    }
+    
+    .carousel img{
+        width: 60vw;
+    }
+    
+    .footersection{
+        margin: 0 8vw 0 8vw;
+    }
+    
+    .footersection a{
+        font-size: 0.9em;
+    }
+    
+    .left ul{
+        padding: 0 6vw 0 2vw;
+    }
+    
+    .right ul{
+        padding: 0 0vw 0 2vw;
+    }
+
+}

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+        <title>CIBC Design | Matt Tran</title>
+        <meta name="description" content="Matthew Tran: Product Designer & Story Teller">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" 
+        type="image/png" 
+        href="./assets/imgs/m.png">
+        <link rel="stylesheet" type="text/css" href="./assets/css/CIBC-Design-Challenge.css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.10/flickity.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.10/flickity.pkgd.min.js"></script>
+
+
+
+
+</head> 
+    
+    <nav class="navigation">
+      <div class="navbar-right">
+        <a href="http://www.thematttran.com">MATTHEW TRAN</a>
+      </div>
+    </nav>
+    
+    <a href="#top" id="return-to-top"><i class="icon-chevron-up"></i></a>
+    
+    <body> 
+        <div class="intro" id="top" data-aos="fade-zoom-in">
+            <div class="fade-scroll">
+                <h1><u>CIBC Automated budget solution</u> - What would you do with extra money every month?</h1>
+                <h2>
+                    Full Case study by Matthew Tran
+                </h2>
+            </div>    
+        </div>  
+        
+        <div class ="section one">
+            <div class = "textbox">
+                
+                <div class="quote" id="inbody" data-aos="fade-up">
+                    <h1>"Smartphones will become more prominent in terms of how people pay instead of using cash"</h1>
+                    <h2>- CIBC CEO Victor Dodig.</h2>    
+                </div>  
+                
+                <p data-aos="fade-up">
+                    A bit of background on how this project came to be, one morning as I was going for my morning coffee and paid for my drink using Apple-pay but I realized that the receipt didn't display much information asides from where I spent my money/how much. I thought to myself, how would this change If I added one more line that tracked my finances because after all a coffee a day really does add up. I chose to work with the <a href="https://www.cibc.com/en/personal-banking/ways-to-bank/mobile-services.html?utrc=S186:2&s_kwcid=AL!4740!3!223152534389!b!!g!!%2Bcibc%20%2Bmobile%20banking&ef_id=WfUf3AAAAGPTOVbn:20180124235001:s" target="_blank">CIBC Banking App</a> because at the time of this casestudy I was working there as a quality assurance agent. It was a great starting point for a first design as I was well acquinted with how the company functioned/designs were layed out. 
+                    <br><br>
+                    Diving into the project I wanted to create a better all-round system that caters to people on the go. To help them save more on a day-to-day basis. These days the word budgeting has become hated by many because the first thought that comes to mind is 'limited spending' or 'manually calculating expenses' and has become a very tedious task that involves a lot of willpower/time that most will not commit to. The expansion is a very lightweight component as its goal is to provide people with a quick overview of spending habits. I tried to minimize the complexity of the interface so that the learning curve is low and all age variants can pick up the app and use it easily.
+
+                    <br><br>    
+                    Disclaimer: To comply with my non-disclosure agreement, I have omitted personal and confidential information from this case study. All information was gathered by me and does not reflect the views of the bank in which the application was based on.
+                </p>
+            </div>    
+        </div>
+        
+        <div class="conceptheader process" data-aos="fade-up">
+            <div class="processimage"></div>
+            
+            <div class="concepttext process">
+                <h1>Strategy of approach</h1>
+                <p>To define my scope of work and keep myself on track I follow <u>IDEO's Human-Centered Design process</u> to ensure everything I did was supported by real user research and feedback.
+                <br><br><br>
+                The process I am following from start to finish
+                <br><br>  
+                Empathize - Using persona and job stories <br>
+                Define - Identifying and prioritizing needs <br>
+                Ideate - Task flows and Lofidelity sketches <br>
+                Prototype - Hifidelity demo <br>
+                Validate - Test prototype and iterate    
+                </p>
+            </div>
+        </div>
+        
+        <div class ="section three">
+            <div class = "textbox">
+                
+                <div class="quote" data-aos="fade-up">
+                    <h1>“We spend a lot time designing the bridge, but not enough time thinking about the people who are crossing it.”</h1>
+                    <h2>    
+                    – Dr. Prabhjot Singh, Director of Systems Design at the Earth Institute.</h2>
+                </div>
+                
+                <p data-aos="fade-up">
+                    To better understand who I am designing for, I began research by collecting data from two different age demographics which were adults (working/non-working) and post-secondary students. Narrowing down the data from my research the main demographic looking to save more were the adults. They are looking to further their future finances all while not compromising their standard of living. From there I did a final compilation of the data and created a persona and job story so that I could better emphathesize/understand their motivation and desired outcomes.        
+                </p>
+            </div>    
+        </div>
+        
+        <div class="empathy">
+            <div class="empathy-r" data-aos="fade-up">
+               <img src ="assets/imgs/CIBC/Persona.jpg" width="100%">
+                <p>Adult data set compiled into a persona under the name of Joseph Garcia who I will be referring to more in this casestudy.</p>
+            </div>
+            <div class="empathy-l" data-aos="fade-up">
+                <img src ="assets/imgs/CIBC/Jobstories.jpg" width="100%">
+                <p>I used the <u>Jobs To Be Done framework</u> to explore Joseph more in depth. Why would he need to budget and if he does how would this service benefit him?</p>
+            </div>
+        </div>
+        
+        <div class ="section five">
+            <div class = "textbox" data-aos="fade-up">
+                <p>
+                    Based on these criteria set of needs that have been defined the service must do the following: 1) Not interupt his daily routine because requiring to constantly check your phone creates the tedious chore that he wants to avoid and 2) Overall help him save more day-to-day to balance his lifestyle so that he can afford what he wants without having to consistently check if he is overspending before every purchase.        
+                </p>
+            </div>    
+        </div>
+        
+        <div class="conceptheader ideating" data-aos="fade-up">     
+            <div class="concepttext ideating">
+                <h1>To the drawing board</h1>
+                <p>I looked at many competitors in the world of budget tech (Mint, Wally, Level Money, GoodBudget, etc). I needed a basis to work from since I have not specifically built a service that caters ones financial needs, so from those already existing applications I picked pieces that fit Josephs criteria of needs and built a better solution. 
+                </p>
+            </div>
+            <div class="ideatingimage"></div>
+        </div> 
+        
+        <div class="section seven">
+            <div class = "textbox">
+                
+                <div class="quote" data-aos="fade-up">
+                    <h1>“Does it better” will always beat “did it first.”</h1>
+                    <h2>– Aaron Levie, CEO at Box.</h2>
+                </div>
+                
+                <p data-aos="fade-up">
+                    Starting off I created rough sketches to help myself conceptualize an idea, once solidified to better visualize how Joseph would use the implimentation I created a Userflow and mapped out all possible scenarios. Without going into further detail in this section, the userflow is based on the core component of my concept which is notifications. They play a vital role being that he will not feel obligated to tap into said notifications but they serve as reminder to him about the main component. This creates enough flexiblity so that he does not feel pressured to tap but can simply swipe away or ignore them - either way the purposed use has been fulfilled. 
+                </p>
+            </div>    
+        </div>
+        
+        <div class="lofi" data-aos="fade-up">
+            <div class="lofiimg">
+               <img src ="assets/imgs/CIBC/Lofidrawings.jpg" width="100%">
+                <p>Pencil + Paper mockups, the good old fashion way of doing things.</p>
+            </div>
+        </div>
+        
+        <div class="userflow" data-aos="fade-up">
+            <div class="userflow-diagram dragscroll">
+                 <img src="assets/imgs/CIBC/userflow.jpg" width="150%"/>
+            </div>  
+            <p>Flow diagram trying to predict Josephs movements and patterns.</p>
+        </div>
+         
+        <div class="conceptheader sketch" data-aos="fade-up">
+            <div class="sketchimage"></div>
+            
+            <div class="concepttext sketch">
+                <h1>From Paper to PC</h1>
+                <p>
+                Based on the concept drawings and userflow diagram I jumped into Sketch and started designing the pretty interfaces.
+                </p>
+            </div>
+        </div>
+        
+        <div class ="section eleven">
+            
+            <h1 data-aos="fade-up">Core expansion breakdown</h1>
+            
+                <div data-aos="fade-up">
+                    <div class = "textbox">
+                        <h3>Budget tracker</h3>
+                        <p>
+                            This allows for Joseph to set his monthly budget and he can also input for other spendings (i.e cash) which the app cannot track.
+                        </p>
+                    </div>  
+                    <div class="carousel">
+                        <img src="./assets/imgs/CIBC/Components/Spendings/Spendings.png">
+                        <img src="./assets/imgs/CIBC/Components/Spendings/SpendingsO1.png">
+                        <img src="./assets/imgs/CIBC/Components/Spendings/SpendingsO2.png">
+                    </div> 
+                </div>
+            
+                <div data-aos="fade-up">  
+                    <div class = "textbox">
+                        <h3>Monthly spendings card </h3>
+                        <p>
+                            This allows Joseph to have quick access to his overall spendings by categories and magnify into a specific spendings breakdown.
+                        </p>
+                    </div>  
+                    
+                    <div class="carousel">
+                        <img src="./assets/imgs/CIBC/Components/Monthtransactions/MonthChart.png">
+                        <img src="./assets/imgs/CIBC/Components/Monthtransactions/AllTransactions.png">
+                        <img src="./assets/imgs/CIBC/Components/Monthtransactions/alternatemonth.png">
+                    </div>  
+                </div>    
+            
+                <div data-aos="fade-up">
+                    <div class = "textbox">
+                        <h3>Savings goal card</h3>
+                        <p>
+                            This allows Joseph to set his specified goal and end date for his financial saving needs.
+                        </p>
+                    </div>  
+                    <div class="carousel">
+                        <img src="./assets/imgs/CIBC/Components/SavingsGoals/SavingsGoal.png">
+                        <img src="./assets/imgs/CIBC/Components/SavingsGoals/Settings.png">
+                    </div>    
+ 
+                </div>
+            
+                <div data-aos="fade-up">
+                    <div class = "textbox">
+                        <h3>Product recommendation card</h3>
+                        <p>
+                            Suggests options from the banks lists of services to help Joseph balance his lifestyle based on his spendings.
+                        </p>
+                    </div> 
+                    <div class="carousel">
+                        <img src="./assets/imgs/CIBC/Components/ProductRecommendation/Card%20Recommendation.png">
+                        <img src="./assets/imgs/CIBC/Components/ProductRecommendation/Visa%20Learn%20More.png">
+                        <img src="./assets/imgs/CIBC/Components/ProductRecommendation/Visa%20Apply%20Now.png">
+                    </div>    
+  
+                </div>
+            
+        </div>    
+            
+        <div class ="section eleven">    
+            <h1 data-aos="fade-up">Notification System</h1>
+            
+            <div data-aos="fade-up">
+                 <div class = "textbox">
+                    <p>
+                        Various notifications that pop up based on certain situations as outlined in the userflow.
+                    </p>
+                 </div>
+                <div class="carousel">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/Receipt.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/ReceiptWarning.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/BudgetReminder.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal.png">
+                </div>   
+            </div>
+            
+            <div data-aos="fade-up">    
+                <div class = "textbox">
+                    <h3>Payment scenario i). </h3>
+                        <p>
+                            If Joseph pays via Apple-Pay or credit/debit he recieve a payment notification, it will tell him where he made the purchase and if it affected his budget via a sunshine emoji. He can tap into the notification to see more and it will lead him into the app.
+                        </p>
+                </div> 
+                <div class="carousel">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/Receipt/Tap%20to%20pay.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/Receipt/Notification.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/Receipt/Touch%20ID.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/Receipt/Budget%20Component.png">
+                </div>
+            </div>  
+            
+            <div data-aos="fade-up">
+                <div class = "textbox">
+                    <h3>Payment scenario ii). </h3>
+                    <p>
+                        Just like the first scenario but in this case if Josephs purchase causes him to be overbudget he will recieve a warning signal instead of a sunshine.
+                    </p>
+                </div>                      
+                <div class="carousel">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/ReceiptWarning/Tap%20to%20pay.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/ReceiptWarning/ReceiptWarning.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/ReceiptWarning/Touch%20ID.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/ReceiptWarning/Warning%20overlay.png">                        
+                    <img src="./assets/imgs/CIBC/Components/Notifications/ReceiptWarning/overbudget.png">
+                </div>
+            </div>
+                
+            <div data-aos="fade-up">
+                <div class = "textbox">
+                    <h3>Budget scenario. </h3>
+                    <p>
+                        If Joseph forgets to set a budget for the tracker component, he will recieve a notification that brings him to that section of the app.
+                    </p>
+                </div> 
+                <div class="carousel">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/budget/Notification.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/budget/Touch%20ID.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/budget/Budget%20Component.png">
+                </div>
+            </div>
+                
+            <div data-aos="fade-up">
+                <div class = "textbox">
+                    <h3>
+                        Savings goal scenario: 100% w/o a savings account.
+                    </h3>
+                    <p>
+                        If Joseph hits their target goal but does not have savings account, it will prompt asking if he would they like to open one.
+                    </p>
+                </div>
+                <div class="carousel">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario1/Notification.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario1/Touch%20ID.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario1/100%25%20SG.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario1/Congrats%20overlay.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario1/Congrats%20overlay%20Copy.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario1/New%20savings%20product%20window.png">
+                </div>
+            </div>
+                
+            <div data-aos="fade-up">   
+                <div class = "textbox">
+                    <h3>Savings goal scenario: 100% w/ a savings account. </h3>
+                    <p>
+                        It will prompt asking if they would like to deposit their saved money into a savings account.
+                    </p>
+                </div> 
+                <div class="carousel">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario2/Congrats%20overlay.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario2/Congrats%20overlay%20Copy.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario2/Yes%20deposit.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario2/Newgoal.png">
+                    <img src="./assets/imgs/CIBC/Components/Notifications/SavingsGoal/Scenario2/Not%20now.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="conceptheader Validating" data-aos="fade-up">     
+            <div class="concepttext Validating">
+                <h1>Can you tell me if this is working for you?</h1>
+                <p>
+                    After having completed the design in sketch, I did a round of testing with "Joseph" and allowed him to look at the product. I recieved his input for a v2 design which were minor interface changes but overall the feedback was pretty positive and he said he would be interested in using this over Mint (Mission success!). 
+                    
+                </p>
+            </div>
+            <div class="Validatingimage"></div>
+        </div> 
+        
+        <div class="section end">
+            <div class = "textbox">
+                <div class="quote" data-aos="fade-up">
+                    <h1>“Human-centered design is a philosophy, not a precise set of methods, but one that assumes that innovation should start by getting close to users and observing their activities.”</h1>
+                    <h2>– Donald A. Norman, Co – founder of Nielsen Norman Group</h2>
+                </div>
+                
+                <p  data-aos="fade-up">
+                    With the help of this system (Saving mechanisms + Notifications), Joseph will now be able to keep track of his spendings on a day-to-day basis rather than an annual basis. The design removes the need to download unnecessary applications from third party vendors such as mint who require you to input your banking information which create security risks (although proven to be secure there are chances of your banking information leaking).
+                    <br><br>
+                    This is the first case study I have compiled and gained much insight from it. Starting from scratch not knowing where to begin, I studied indepth the industry standard tools to help me design. Now with my newly acquired knowledge I am ready to move onto the next project to further increase my design thinking capabilities, I will revisit this project in the near future for a v2 iteration but for now onto the next. Thanks for reading! 
+                    <br><br>
+                    Disclaimer: To comply with my non-disclosure agreement, I have omitted personal and confidential information from this case study. All information was gathered by me and does not reflect the views of the bank in which the application was based on.
+                </p>
+            </div>    
+        </div>
+        
+        <div class="date">
+            <p>User Experience / Product Creation</p>  <p>Posted - September 1st 2017.</p>
+        </div>
+    </body> 
+    
+    <footer>
+        <div class="footersection">
+            <div class="left">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/thematttran/" target="_blank">Linkedin</a></li>
+                    <li><a href="https://www.behance.net/thematttran" target="_blank">Behance</a></li>
+                    <li><a href="http://instagram.com/cha.siu" target="_blank">Instagram</a></li>
+                    <li><a href="https://500px.com/chasiuu" target="_blank">500px</a></li>
+
+                </ul>
+
+            </div>
+            <div class="left">
+                <ul>  
+                    <li><a href="Matthew_Tran_Resume_2017.pdf" target="_blank">Resume</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="mailto:thematttran@gmail.com">Contact</a></li>
+                </ul>
+            </div> 
+            
+            <div class="right">
+                <ul>
+                    <li><a href="http://www.thematttran.com">Return Home</a></li>
+                </ul>
+            </div>
+        </div>        
+    </footer>
+    
+    
+    
+
+    <script>
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        }
+    </script>
+
+    <script>
+            
+            $(function() {
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+        
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/200);
+                    }); 
+                });
+                
+            });
+        
+    </script>
+    
+    
+    <script>
+        $(window).on('load', function() {
+            AOS.refresh();
+            
+            AOS.init({
+              offset: 200,
+              duration: 600,
+              easing: 'ease-in-sine',
+              delay: 100,
+            });
+        });
+    </script>
+    
+    <script>
+         $(window).scroll(function() {
+        if($(this).scrollTop() > 600){  /*height in pixels when the navbar becomes non opaque*/ 
+            $('.navbar-right a').addClass('color');
+        }else{
+            $('.navbar-right a').removeClass('color');
+        }
+    });
+    </script>
+      
+
+    <script>
+        $(document).ready(function(){
+            var $carousel = $('.carousel').flickity({
+              // options
+              imagesLoaded: 'true',    
+              cellAlign: 'left',
+              wrapAround: 'true', 
+              freeScroll: 'true', 
+              contain: true
+            });
+        });
+    </script>
+    
+    <script>
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 600) {        
+                $('#return-to-top').fadeIn(200);    
+            } else {
+                $('#return-to-top').fadeOut(200);  arrow
+            }
+        });
+        $('#return-to-top').click(function() {   
+            $('body,html').animate({
+                scrollTop : 0                       
+            }, 500);
+        });
+    </script>
+    
+</html>
