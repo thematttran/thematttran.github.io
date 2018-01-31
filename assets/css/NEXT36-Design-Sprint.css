@@ -5,6 +5,10 @@ body,html{
     overflow-x: hidden;
 }
 
+.img{
+    draggable=false;
+}
+
 .navigation{
     padding-top:7vh;
     padding-bottom:1vh;
