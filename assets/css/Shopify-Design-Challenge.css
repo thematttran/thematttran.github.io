@@ -119,7 +119,7 @@ body,html{
 }
 
 .overview img{
-    width: 100%;
+    width: 150%;
 }
 
 .textbox p{
@@ -383,6 +383,10 @@ footer a:hover{
     
     .navbar-right a{
         font-size: 1em;    
+    }
+    
+    .overview img{
+        width: 190%;
     }
     
     .carousel img{
