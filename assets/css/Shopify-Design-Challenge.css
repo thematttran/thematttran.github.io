@@ -120,7 +120,7 @@ body,html{
 
 .overview img{
     width: 150%;
-    margin-left: 0;
+    margin-left: -10vw;
 }
 
 .textbox p{
